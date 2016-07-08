@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="search">Search</string>
+    <string name="select_city">Select City</string>
+    <string name="pick_alert_date">Pick Alert Date</string>
+    <string name="current_weather_in_tbilisi">Current Weather in Tbilisi</string>
+    <string name="alert_will_be_fired_if_weather_changes_by_more_than_5_u2103">* Alert will be fired if weather changes by more than 3 ℃</string>
+    <string name="remove_notifications_by_long_click">Remove Notifications by long click</string>
+</resources>

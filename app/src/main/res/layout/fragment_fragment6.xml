@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/GhostWhite"
+    tools:context=".fragments.CityTab">
+
+    <ImageView android:id="@+id/addButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        android:background="@drawable/add"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@color/DarkRed"
+        android:layout_margin="5dp"
+        android:text="@string/remove_notifications_by_long_click"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@color/DarkRed"
+        android:layout_margin="5dp"
+        android:text="@string/alert_will_be_fired_if_weather_changes_by_more_than_5_u2103"/>
+    <ListView
+        android:id="@+id/notificationListView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="outsideInset"
+        android:background="@color/White" />
+</LinearLayout>
